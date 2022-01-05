@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Merriweather', serif;
+}
+.first-section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.left-side {
+  width: 50%;
+  padding-top: 100px;
+}
+.left-side h1 {
+  font-size: 42px;
+  font-weight: 700;
+  border-image: linear-gradient(orange, tomato);
+  border-left: 4px solid;
+  border-image-slice: 1;
+  padding: 0 8px;
+  margin-bottom: 25px;
+}
+.mission {
+  color: rgb(226, 46, 46);
+}
+.left-side p{
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.explore-btn{
+    padding: 10px 45px;
+    background-image: linear-gradient(to right, red, orange);
+    border:none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.right-side {
+  width: 50%;
+  text-align: center;
+ 
+}
+.right-side img {
+  width: 70%;
+  padding-top: 40px;
+}
+/* second section */
+.second-section {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.second-section h2{
+    text-align: center;
+    font-size: 35px;
+}
+.card-container{
+    display: flex;
+    gap: 40px;
+    padding-top: 40px;
+}
+.card{
+    padding: 20px;
+    width: 25%;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    padding-bottom: 30px;
+
+}
+.card .card-img img{
+    width: 25%;
+}
+.card-1{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.card-2 {
+    background-color:rgba(255, 89, 89, 0.1);
+}
+.card-3{
+    background-color: #FFF4D6;
+}
+.card p, .card  h3{
+    margin-top: 20px;
+}
