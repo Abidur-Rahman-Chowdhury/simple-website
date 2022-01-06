@@ -5,9 +5,13 @@
 body {
   font-family: 'Merriweather', serif;
 }
-.first-section {
+.first-section,
+.second-section,
+.third-section {
   width: 80%;
   margin: 0 auto;
+}
+.first-section {
   display: flex;
 }
 
@@ -27,26 +31,24 @@ body {
 .mission {
   color: rgb(226, 46, 46);
 }
-.left-side p{
-    text-align: justify;
-    line-height: 1.5;
-    margin-bottom: 25px;
+.left-side p {
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 25px;
 }
-.explore-btn{
-    padding: 10px 45px;
-    background-image: linear-gradient(to right, red, orange);
-    border:none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 10px;
-    margin-bottom: 20px;
-
+.explore-btn {
+  padding: 10px 45px;
+  background-image: linear-gradient(to right, red, orange);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 .right-side {
   width: 50%;
   text-align: center;
- 
 }
 .right-side img {
   width: 70%;
@@ -54,40 +56,69 @@ body {
 }
 /* second section */
 .second-section {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 50px;
-    
+  margin-top: 50px;
 }
-.second-section h2{
-    text-align: center;
-    font-size: 35px;
+.second-section h2 {
+  text-align: center;
+  font-size: 35px;
 }
-.card-container{
-    display: flex;
-    gap: 40px;
-    padding-top: 40px;
+.card-container {
+  display: flex;
+  gap: 40px;
+  padding-top: 40px;
 }
-.card{
-    padding: 20px;
-    width: 25%;
-    margin-bottom: 15px;
-    border-radius: 25px;
-    padding-bottom: 30px;
-
+.card {
+  padding: 20px;
+  width: 25%;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  padding-bottom: 30px;
 }
-.card .card-img img{
-    width: 25%;
+.card .card-img img {
+  width: 25%;
 }
-.card-1{
-    background-color: rgba(79, 157, 166, 0.1);
+.card-1 {
+  background-color: rgba(79, 157, 166, 0.1);
 }
 .card-2 {
-    background-color:rgba(255, 89, 89, 0.1);
+  background-color: rgba(255, 89, 89, 0.1);
 }
-.card-3{
-    background-color: #FFF4D6;
+.card-3 {
+  background-color: #fff4d6;
 }
-.card p, .card  h3{
-    margin-top: 20px;
+.card p,
+.card h3 {
+  margin-top: 20px;
+}
+/* third section */
+.third-section {
+  margin-top: 80px;
+}
+.third-container {
+  display: flex;
+  background-image: url(../images/shapes/shape-1.png);
+  background-size: 400px;
+  background-position-y: 50px;
+  background-repeat: no-repeat;
+}
+.third-container .third-left,
+.third-container .third-right{
+  width: 50%;
+}
+.third-left img {
+  width: 60%;
+  padding-left: 150px;
+}
+.third-right h2 {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+.third-right P {
+  margin-bottom: 25px;
+}
+.read-btn {
+  background-image: linear-gradient(to right, red, orange);
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
 }
